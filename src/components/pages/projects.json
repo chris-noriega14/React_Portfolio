@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "TripTunes",
-      "image": "https://github.com/chris-noriega14/Updated_Portfolio_2/blob/main/Assets/images/trip-tunes.gif",
+      "image": "https://github.com/chris-noriega14/Updated_Portfolio_2/blob/main/Assets/images/trip-tunes.PNG?raw=true",
       "description": "Trip Tunes: Trip Tunes uses mapbox and Spotify API to take a user's starting and ending location and create a playlist of the perfect length for their trip.",
       "github_url": "https://github.com/jessicamcg/trip-tunes",
       "live_link":"https://jessicamcg.github.io/trip-tunes"
