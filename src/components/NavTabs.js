@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs justify-content-end">
-      <li className="nav-item">
+      <li className="nav-item font-weight-bold">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item font-weight-bold">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -26,17 +26,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item font-weight-bold">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
+          href="#projects"
+          onClick={() => handlePageChange('Projects')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Projects
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item font-weight-bold">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
