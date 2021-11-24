@@ -1,11 +1,11 @@
 import React from 'react';
-// import './style.css'
+import '../style.css'
 
 function ProjectCard(props) {
     return (
-      <div className="card col-4">
-        <div className="img-container col-4">
-          <img alt={props.name} src={props.image} />
+      <div className="card">
+        <div className="img-container">
+          <img className="project-image" alt={props.name} src={props.image} />
         </div>
         <div className="content">
           <ul>

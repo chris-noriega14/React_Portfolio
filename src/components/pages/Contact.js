@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style.css'
 
 export default function Contact() {
   return (
@@ -10,10 +11,10 @@ export default function Contact() {
         <ul>Phone Number: (210)542-2047</ul>
         <ul>Email Address: chris.noriega14@hotmail.com</ul>
         <ul>
-        <a href="https://linkedin.com/in/chrisnoriega14">LinkedIn Account</a>
+        <a class="contact-link" href="https://linkedin.com/in/chrisnoriega14">LinkedIn Account</a>
         </ul>
         <ul>
-        <a href="https://github.com/chris-noriega14">GitHub Account</a>
+        <a class="contact-link" href="https://github.com/chris-noriega14">GitHub Account</a>
         </ul>
       
     </div>
