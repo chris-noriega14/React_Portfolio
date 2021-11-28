@@ -1,6 +1,6 @@
 # Updated_Portfolio
 
-Screenshot of the deployed application:(https://github.com/chris-noriega14/Updated_Portfolio/blob/main/Assets/images/screencapture-updated-portfolio.png?raw=true)
+Screenshot of the deployed application:(https://github.com/chris-noriega14/React_Portfolio/blob/main/React_Portfolio.gif)
 
 GitHub URL to files: https://github.com/chris-noriega14/React_Portfolio
 
