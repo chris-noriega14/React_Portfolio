@@ -1,4 +1,4 @@
-# Updated_Portfolio
+# React_Portfolio
 
 Screenshot of the deployed application:(https://github.com/chris-noriega14/React_Portfolio/blob/main/React_Portfolio.gif)
 
