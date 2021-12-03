@@ -4,6 +4,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
+import './style.css';
+import { Parallax } from 'react-parallax';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -26,10 +29,19 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+      <div>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      </div>
+      
+    <Footer />
+      {/* <Parallax className="footer--pin">
+        <Footer />
+        </Parallax> */}
     </div>
+     
+    
   );
 }

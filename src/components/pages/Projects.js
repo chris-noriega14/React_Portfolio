@@ -7,9 +7,10 @@ export default function Projects() {
   
   const [projectList, setProjectList] = useState(projects);
   return (
-    <div>
+    <div style={{paddingRight:"20px", display:"flex", flexDirection:"row", flexWrap:"wrap"}}>
       <h1 className="title">Project List</h1>
       {projectList.map(projects => (
+        <div>
         <ProjectCard
           id={projects.id}
           key={projects.id}
@@ -19,6 +20,7 @@ export default function Projects() {
           github_url={projects.github_url}
           live_link={projects.live_link}
         />
+        </div>
       ))}
     </div>
   );
